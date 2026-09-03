@@ -6,24 +6,21 @@ using System.Threading.Tasks;
 
 namespace pato
 {
-        public class Pato
-        {
+         public class Pato
+         {
             // Propriedades
            private String nome { get; set; }
            private ModoVoo voo;
 
-            public Pato()
-        {
-            this.voo = new VoarComAsas();
-        }
+           public Pato()
+           {
+              this.voo = new VoarComAsas();
+           }
 
-        public void voar() 
-        {
+           public void voar() 
+           {
             this.voo.voar();
+           }
         }
-           
-
-      
-        }
-    }
+}
 
