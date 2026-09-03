@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace pato
 {
-    internal class Class1
+    internal class PatoDeBoracha
     {
     }
 }
